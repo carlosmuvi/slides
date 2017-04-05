@@ -6,13 +6,31 @@
 
 # Index
 
-1. Dagger API
+1. ## Pros N Cons
+2. Dagger API
  1. Module
  2. Component
  3. Scope
-2. Dagger in Marvin
-3. Core Changes
-4. Migrating existing page w/ tests
+3. Dagger in Marvin
+4. Core Changes
+5. Migrating existing page w/ tests
+
+---
+
+## Pros N Cons
+
+- Reusable and interchangeable modules
+- Separation of concerns (different code paths by environment)
+  - mock implementations when testing
+  - staging implementations when debugging
+  - real implementations in production
+
+---
+
+## Pros N Cons
+
+- Learning curve
+- ~~Runtime errors~~ not with Dagger2!
 
 ---
 
